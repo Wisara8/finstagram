@@ -1,0 +1,22 @@
+header {
+    background-color: #244751;
+    color: #EF8DFF;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Rozha One', serif;
+}
+
+main {
+    background-color: white;
+    padding: 16px;
+}
+
+.post {
+    margin-bottom: 48px;
+}
+
+.post .user-info img {
+    border-radius: 50%;
+}
