@@ -20,3 +20,12 @@ main {
 .post .user-info img {
     border-radius: 50%;
 }
+
+body :hover {
+    color: orange;
+    
+}
+
+a :active {
+    color: red;
+}
