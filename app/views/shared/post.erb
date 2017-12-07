@@ -11,7 +11,7 @@
     </a>
     
     <div class"actions">
-        <%= post.like_count %> likes
+        <%= erb(:"shared/likes", { locals: { post: post }}) %>
         <span class="comment-count"><%= post.comment_count %> comments</span>
     </div>
     
